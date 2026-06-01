@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Carrom King by Quantam Core</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Official Privacy Policy for Carrom King. Learn how Quantam Core handles and protects your data while playing our premium mobile carrom board game.">
+    <meta name="keywords" content="Carrom King, Quantam Core, Privacy Policy, Game Policy, Mobile Game, Carrom Board Game">
+    <meta name="author" content="Quantam Core">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Ambient Background Lights -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Header Navigation -->
+    <header id="main-header" class="glass-nav">
+        <div class="nav-container">
+            <div class="logo-wrapper">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="40" class="logo-outer-circle" />
+                    <circle cx="50" cy="50" r="28" class="logo-inner-circle" />
+                    <!-- Crown Design -->
+                    <path d="M35,60 L30,42 L42,48 L50,32 L58,48 L70,42 L65,60 Z" class="logo-crown" />
+                    <circle cx="50" cy="50" r="8" class="logo-center-piece" />
+                </svg>
+                <div class="brand-text">
+                    <span class="brand-title">CARROM KING</span>
+                    <span class="brand-subtitle">by Quantam Core</span>
+                </div>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#policy-content" class="nav-link">Policy</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" class="icon-btn" aria-label="Open navigation menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-nav" class="mobile-nav-menu">
+            <ul>
+                <li><a href="#hero" class="mobile-link">Home</a></li>
+                <li><a href="#policy-content" class="mobile-link">Privacy Policy</a></li>
+                <li><a href="#contact" class="mobile-link">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="grid-overlay"></div>
+        <div class="container hero-container">
+            <div class="badge-animated">
+                <span class="badge-pulse"></span>
+                <span class="badge-text">Privacy Portal</span>
+            </div>
+            <h1 class="hero-title">Privacy Policy for <span class="gradient-text">Carrom King</span></h1>
+            <p class="hero-subtitle">
+                At Quantam Core, we are fully committed to protecting the privacy of our players. Explore how we manage and safeguard your data when playing our game.
+            </p>
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <i class="fa-regular fa-calendar-check"></i>
+                    <span>Last Updated: <strong>June 1, 2026</strong></span>
+                </div>
+                <div class="meta-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Player Safety: <strong>Guaranteed</strong></span>
+                </div>
+            </div>
+            <a href="#policy-content" class="cta-btn scroll-down-btn">
+                <span>Read Policy</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <main id="policy-content" class="content-section">
+        <div class="container main-grid">
+            
+            <!-- Sidebar Navigation & Tools -->
+            <aside class="sidebar-aside">
+                <div class="sticky-sidebar">
+                    <!-- Search Widget -->
+                    <div class="sidebar-card search-card">
+                        <h3>Search Policy</h3>
+                        <div class="search-box">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input type="text" id="policy-search" placeholder="Search keywords..." aria-label="Search Privacy Policy content">
+                            <button id="clear-search" class="clear-btn" style="display: none;"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div id="search-results-count" class="search-feedback"></div>
+                    </div>
+
+                    <!-- Interactive Table of Contents -->
+                    <nav class="sidebar-card toc-card">
+                        <h3>Sections</h3>
+                        <ul class="toc-list" id="toc-list">
+                            <li><a href="#introduction" class="toc-link active"><span class="num">1</span> Introduction</a></li>
+                            <li><a href="#information-collect" class="toc-link"><span class="num">2</span> Information We Collect</a></li>
+                            <li><a href="#third-party" class="toc-link"><span class="num">3</span> Third-Party Services</a></li>
+                            <li><a href="#children-privacy" class="toc-link"><span class="num">4</span> Children’s Privacy</a></li>
+                            <li><a href="#data-security" class="toc-link"><span class="num">5</span> Data Security</a></li>
+                            <li><a href="#changes-policy" class="toc-link"><span class="num">6</span> Policy Changes</a></li>
+                            <li><a href="#contact" class="toc-link"><span class="num">7</span> Contact Us</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Trust Stats Badge -->
+                    <div class="sidebar-card trust-card">
+                        <div class="trust-icon"><i class="fa-solid fa-user-shield"></i></div>
+                        <h4>Privacy First Philosophy</h4>
+                        <p>We do not collect personal identifiers like your name, email, or phone number. Your gaming profile is completely private.</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Policy Content Sections -->
+            <article class="policy-article">
+                
+                <!-- Section 1: Introduction -->
+                <section id="introduction" class="policy-section-block active-section">
+                    <div class="section-header">
+                        <div class="section-number">01</div>
+                        <h2>Introduction</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="quick-summary-box">
+                            <span class="qs-badge"><i class="fa-regular fa-lightbulb"></i> Summary</span>
+                            <p>Welcome to Carrom King! This policy outlines our strong commitment to player privacy and explains how details are handled in our game.</p>
+                        </div>
+                        <p>Welcome to <strong>Carrom King</strong>, a game meticulously designed and developed by <strong>Quantam Core</strong>. We are committed to safeguarding the privacy and security of our players. This Privacy Policy is crafted to help you understand how we handle information when you install, play, or interact with our game.</p>
+                        <p>By downloading or playing Carrom King, you agree to the collection and use of information in accordance with this policy. If you have any concerns or disagree with any part of this policy, please read on to understand what is collected, or contact us directly.</p>
+                    </div>
+                </section>
+
+                <!-- Section 2: Information We Collect -->
+                <section id="information-collect" class="policy-section-block">
+                    <div class="section-header">
+                        <div class="section-number">02</div>
+                        <h2>Information We Collect</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="quick-summary-box">
+                            <span class="qs-badge"><i class="fa-regular fa-lightbulb"></i> Summary</span>
+                            <p>We do not collect personal info (name, email, etc.). Only basic, anonymous system and performance logs are processed to optimize your gameplay.</p>
+                        </div>
+                        
+                        <div class="info-type-grid">
+                            <!-- Personal Info Card (Red/Negative because we DON'T collect it) -->
+                            <div class="info-card no-collect">
+                                <div class="info-card-header">
+                                    <div class="info-icon-wrapper"><i class="fa-solid fa-user-slash"></i></div>
+                                    <h3>Personal Information</h3>
+                                </div>
+                                <div class="info-card-status">We Collect: <span>NONE</span></div>
+                                <p>We value your privacy above all. We <strong>do not collect</strong> any personal identifiers such as:</p>
+                                <ul class="checked-list">
+                                    <li><i class="fa-solid fa-xmark list-no"></i> Your full name or alias</li>
+                                    <li><i class="fa-solid fa-xmark list-no"></i> Physical or billing address</li>
+                                    <li><i class="fa-solid fa-xmark list-no"></i> Phone numbers</li>
+                                    <li><i class="fa-solid fa-xmark list-no"></i> Personal email addresses</li>
+                                </ul>
+                            </div>
+
+                            <!-- Non-Personal Info Card (Green/Positive because we collect it anonymously) -->
+                            <div class="info-card collect">
+                                <div class="info-card-header">
+                                    <div class="info-icon-wrapper"><i class="fa-solid fa-laptop-code"></i></div>
+                                    <h3>Non-Personal Data</h3>
+                                </div>
+                                <div class="info-card-status">We Collect: <span>TECHNICAL ONLY</span></div>
+                                <p>Like many games built with the <strong>Unity Engine</strong>, our game may automatically collect certain non-personal information, such as:</p>
+                                <ul class="checked-list">
+                                    <li><i class="fa-solid fa-check list-yes"></i> Device model, type, and operating system.</li>
+                                    <li><i class="fa-solid fa-check list-yes"></i> Unique device identifiers (like Android ID or Advertising ID).</li>
+                                    <li><i class="fa-solid fa-check list-yes"></i> Game performance data (including crash logs and session duration).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="section-note"><i class="fa-solid fa-circle-info"></i> This technical data is strictly used to identify crashes, fix bugs, balance game mechanics, and ensure Carrom King runs smoothly on your specific mobile device.</p>
+                    </div>
+                </section>
+
+                <!-- Section 3: Third-Party Services -->
+                <section id="third-party" class="policy-section-block">
+                    <div class="section-header">
+                        <div class="section-number">03</div>
+                        <h2>Third-Party Services</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="quick-summary-box">
+                            <span class="qs-badge"><i class="fa-regular fa-lightbulb"></i> Summary</span>
+                            <p>We partner with Unity and Google to provide essential game infrastructure, analytics, leaderboards, and ad systems. They collect data according to their own policies.</p>
+                        </div>
+                        <p>We use third-party industry-standard services to improve your gameplay experience, track bugs, and provide fair advertising. These partners may collect and process data in accordance with their respective privacy policies. We encourage you to review them:</p>
+                        
+                        <div class="partner-grid">
+                            <!-- Unity Services Card -->
+                            <div class="partner-card">
+                                <div class="partner-header">
+                                    <div class="partner-logo">
+                                        <i class="fa-brands fa-unity"></i>
+                                    </div>
+                                    <div class="partner-info">
+                                        <h4>Unity Services</h4>
+                                        <span class="partner-tags">Game Engine • Analytics • Ads</span>
+                                    </div>
+                                </div>
+                                <p>Powering the core physics, multiplayer mechanics, graphics engine, and display ads of Carrom King. Unity processes gameplay events and device hardware information to keep the game optimized.</p>
+                                <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" class="partner-link">
+                                    <span>Read Unity Privacy Policy</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+
+                            <!-- Google Play Services Card -->
+                            <div class="partner-card">
+                                <div class="partner-header">
+                                    <div class="partner-logo">
+                                        <i class="fa-brands fa-google-play"></i>
+                                    </div>
+                                    <div class="partner-info">
+                                        <h4>Google Play Services</h4>
+                                        <span class="partner-tags">Achievements • Leaderboards • Updates</span>
+                                    </div>
+                                </div>
+                                <p>Used for online leaderboards, tracking achievements, facilitating game updates, cloud saves, and securing matches against tampering. Google processes account identifiers linked to your Google Play Profile.</p>
+                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="partner-link">
+                                    <span>Read Google Privacy Policy</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 4: Children’s Privacy -->
+                <section id="children-privacy" class="policy-section-block">
+                    <div class="section-header">
+                        <div class="section-number">04</div>
+                        <h2>Children’s Privacy</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="quick-summary-box warning-box">
+                            <span class="qs-badge"><i class="fa-solid fa-child-reaching"></i> Age Guard</span>
+                            <p>Carrom King is safe for all ages. We never knowingly collect or ask for data from players under 13.</p>
+                        </div>
+                        <p>Our game is designed for all ages, offering a clean, family-friendly environment. We do not knowingly collect, store, or solicit personal information from children under the age of <strong>13</strong>.</p>
+                        <p>If you are a parent or guardian and you believe that we have accidentally collected personal data from your child under 13, please contact us immediately. We will take swift, decisive measures to locate and delete that information from our records and ensure our partners do the same.</p>
+                    </div>
+                </section>
+
+                <!-- Section 5: Data Security -->
+                <section id="data-security" class="policy-section-block">
+                    <div class="section-header">
+                        <div class="section-number">05</div>
+                        <h2>Data Security</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="quick-summary-box info-box">
+                            <span class="qs-badge"><i class="fa-solid fa-lock"></i> Encryption & Integrity</span>
+                            <p>We work closely with industry-standard partners to protect technical data against unauthorized access.</p>
+                        </div>
+                        <p>The security of your information is extremely important to us. Although no mobile game or method of electronic transmission over the internet can guarantee 100% security, we take strong, reasonable measures to protect any non-personal information collected by our third-party partners.</p>
+                        <p>These practices are aimed at preventing unauthorized access, accidental loss, alteration, or disclosure of data. We review our partners' security compliance regularly to maintain top-tier protection standards.</p>
+                    </div>
+                </section>
+
+                <!-- Section 6: Changes to This Policy -->
+                <section id="changes-policy" class="policy-section-block">
+                    <div class="section-header">
+                        <div class="section-number">06</div>
+                        <h2>Changes to This Policy</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="quick-summary-box">
+                            <span class="qs-badge"><i class="fa-regular fa-clock"></i> Evolution</span>
+                            <p>We occasionally update our privacy policy. Check this page anytime to see the latest version.</p>
+                        </div>
+                        <p><strong>Quantam Core</strong> may update this Privacy Policy from time to time to adapt to new legal regulations, technical requirements, or improvements to our game mechanics.</p>
+                        <p>We will notify our players of any changes by updating the <strong>"Last Updated"</strong> date at the very top of this policy page. We highly recommend reviewing this page periodically to stay informed about how we safeguard our community.</p>
+                    </div>
+                </section>
+
+                <!-- Section 7: Contact Us & Interactive Form -->
+                <section id="contact" class="policy-section-block">
+                    <div class="section-header">
+                        <div class="section-number">07</div>
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="section-body">
+                        <p>If you have any questions, feedback, or data privacy requests regarding this Privacy Policy or Carrom King, please feel free to reach out to our dedicated team at <strong>Quantam Core</strong>.</p>
+                        
+                        <div class="contact-grid">
+                            <!-- Contact Details Card -->
+                            <div class="contact-details">
+                                <div class="detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <div class="detail-text">
+                                        <h5>Studio Headquarters</h5>
+                                        <p>Quantam Core<br>Bongaon, North 24 Parganas,<br>West Bengal, India<br>PIN: 743235</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="detail-text">
+                                        <h5>Direct Email Support</h5>
+                                        <p><a href="mailto:quantamcorestudio@gmail.com" class="email-link">quantamcorestudio@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon"><i class="fa-solid fa-clock"></i></div>
+                                    <div class="detail-text">
+                                        <h5>Response Time</h5>
+                                        <p>Usually responds within 24 to 48 working hours.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Interactive Message Form -->
+                            <div class="contact-form-wrapper glass-panel">
+                                <h4>Send us a Message</h4>
+                                <form id="privacy-contact-form" novalidate>
+                                    <div class="form-group">
+                                        <label for="form-name">Name</label>
+                                        <input type="text" id="form-name" placeholder="Your Name" required>
+                                        <span class="error-msg" id="name-error">Please enter your name.</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-email">Email Address</label>
+                                        <input type="email" id="form-email" placeholder="you@example.com" required>
+                                        <span class="error-msg" id="email-error">Please enter a valid email.</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-message">Message or Privacy Query</label>
+                                        <textarea id="form-message" rows="4" placeholder="How can we help you with your privacy query?" required></textarea>
+                                        <span class="error-msg" id="message-error">Please write a message.</span>
+                                    </div>
+                                    <button type="submit" class="submit-btn">
+                                        <span>Send Message</span>
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </button>
+                                </form>
+                                <div id="form-feedback" class="form-feedback-message"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo-wrapper">
+                        <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" class="logo-outer-circle" />
+                            <circle cx="50" cy="50" r="28" class="logo-inner-circle" />
+                            <path d="M35,60 L30,42 L42,48 L50,32 L58,48 L70,42 L65,60 Z" class="logo-crown" />
+                            <circle cx="50" cy="50" r="8" class="logo-center-piece" />
+                        </svg>
+                        <span class="brand-title">CARROM KING</span>
+                    </div>
+                    <p class="footer-description">Experience the ultimate traditional carrom board action on your mobile device. Beautiful boards, realistic physics, and robust multiplayer.</p>
+                </div>
+                <div class="footer-links">
+                    <h5>Game Assets</h5>
+                    <ul>
+                        <li><a href="#" class="footer-link">Google Play Store</a></li>
+                        <li><a href="#" class="footer-link">Support Hub</a></li>
+                        <li><a href="#" class="footer-link">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="mailto:quantamcorestudio@gmail.com" class="social-icon-link" aria-label="Email Studio"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#" class="social-icon-link" aria-label="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon-link" aria-label="YouTube Channel"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="social-icon-link" aria-label="Discord Server"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Quantam Core. All Rights Reserved. Built with ❤️ for Carrom Players Worldwide.</p>
+                <div class="footer-meta-links">
+                    <a href="#policy-content" class="f-meta-link">Privacy Policy</a>
+                    <a href="#" class="f-meta-link">Terms of Use</a>
+                    <a href="#" class="f-meta-link">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to Top">
+        <svg class="progress-circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+        <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
+    </button>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
